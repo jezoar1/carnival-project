@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.participant-list {
+  margin-top: 20px;
+}
+
+.participants-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.participants-table th, .participants-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.participants-table th {
+  background-color: #f4a261;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

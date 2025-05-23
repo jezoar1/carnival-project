@@ -1,0 +1,195 @@
+/* .hero-section { */
+    /* background: url('') no-repeat center center/cover; */
+    
+    /* height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center; */
+  /* } */
+  
+  .hero-section .hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #ffa500;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .hero-section .btn-primary:hover {
+    background-color: #ff7800;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 80px 20px;
+    background-color: #cfbcd4;
+    text-align: center;
+    /* margin-top: 100px; */
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: rgb(36, 10, 10);
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: 0.3s;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Student/image/spic1.jpg);
+   
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature i {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+ /* General Styles */
+.event-section {
+  
+    background-color: #2d0345;
+    padding: 50px 0;
+    color: white;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    margin-top: 0px;
+  }
+  
+  .event-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative;
+    /* margin-bottom: 500px; */
+  }
+  
+  .event-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .mask-image {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 160px;
+    height: auto;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  /* Event List */
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Event Card */
+  .event-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d022f;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid #d4a53d;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Time Box */
+  .time-box {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 130px;
+    color: white;
+  }
+  
+  /* Details Box */
+  .details-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+  /* Event Title inside the card */
+  .event-title-card {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  /* Register Link */
+  .register-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e5c16a;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .register-link:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+  }
+  .spic1
+  {
+    padding: 200px;
+    width: 30%;
+    border-radius: 10px;
+  }

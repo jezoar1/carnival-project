@@ -1,0 +1,122 @@
+/* Import FontAwesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Center the entire profile in the middle of the screen */
+.sbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.studentss-profile {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.studentss-profile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profiless-header {
+  background-color: #4caf50;
+  padding: 30px;
+  text-align: center;
+}
+
+.profiless-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.profiless-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.profiless-name {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profiless-major {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.profiless-description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.profiless-achievements {
+  margin-top: 20px;
+}
+
+.profiless-achievements h3 {
+  color: #4caf50;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.profiless-achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profiless-achievements li {
+  font-size: 0.9rem;
+  color: #333;
+  padding: 5px 0;
+}
+
+.profiless-footer {
+  padding: 15px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Align buttons properly */
+}
+
+.social-link {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #4caf50;
+}
+
+/* Edit button styling */
+.edit-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.edit-button i {
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  color: #4caf50; /* Matches the profile theme color */
+}

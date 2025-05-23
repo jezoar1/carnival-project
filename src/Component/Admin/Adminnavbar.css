@@ -1,0 +1,59 @@
+.custom-navbar {
+  background-image: linear-gradient(to right, rgba(93,2,105,1), rgba(55,0,90,1));
+  padding: 10px 20px;
+}
+
+/* Navbar Brand (Logo/Text) */
+.custom-navbar .navbar-brand {
+  font-size: 1.5rem; /* Custom font size */
+  font-weight: 700;  /* Bold text */
+  color: #fff !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-brand:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Navbar Links */
+.custom-navbar .nav-link {
+  color: #fff !important; /* White text */
+  margin-right: 1rem; /* Spacing */
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.custom-navbar .nav-link:hover {
+  color: #ff6200 !important; /* Orange on hover */
+  text-shadow: 0 0 10px rgba(255, 98, 0, 0.8); /* Glow effect */
+}
+
+/* Navbar Toggler Button */
+.custom-navbar .navbar-toggler {
+  border: none; /* Remove border */
+  outline: none; /* Remove focus outline */
+}
+
+/* Navbar Toggler Icon */
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='white'><path stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* Align navbar items to the right */
+.custom-navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* Responsive: Adjust navbar padding for small screens */
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 8px 15px;
+  }
+
+  .custom-navbar .nav-link {
+    font-size: 14px;
+    text-align: center;
+  }
+}
